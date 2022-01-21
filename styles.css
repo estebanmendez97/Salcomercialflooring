@@ -1,0 +1,16 @@
+html body {
+    background-color: rgb(119, 119, 119);
+    margin: 0px;
+    height: 100%;
+  }
+  section {
+  background-color: white;
+  text-align: center;
+  height: 380px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}

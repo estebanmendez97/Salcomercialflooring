@@ -1,0 +1,18 @@
+alerts:
+- rule: DEPLOYMENT_FAILED
+- rule: DOMAIN_FAILED
+domains:
+- domain: www.sampletotest.com
+  type: PRIMARY
+name: salcomercialflooring
+region: tor
+static_sites:
+- environment_slug: html
+  github:
+    branch: master
+    deploy_on_push: true
+    repo: estebanmendez97/Salcomercialflooring
+  name: salcomercialflooring
+  routes:
+  - path: /
+  source_dir: /

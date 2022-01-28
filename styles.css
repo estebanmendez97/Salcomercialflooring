@@ -15,12 +15,22 @@ h1 {
 }
 h2 {
   text-align: center;
+  color: #35728b;
+  margin-top: 80px;
+  font-size: 40px;
 }
+
 h3 {
-  font-size: 28px;
+  font-size: 30px;
   text-align: center;
   margin-top: 45px;
+
 }
+.smll-text{
+    font-size: 24px;
+    font-family: 'Open Sans Condensed', sans-serif;    
+}
+
 h4 {
   color: rgb(255, 255, 255);
   font-size: 28px;
@@ -34,9 +44,13 @@ h4 {
   float: left;
 }
 .truckpic {
-  height: 450px;
+  height: 540px;
   width: 100%;
   position: static;
+}
+.about{
+    padding-left: 85px;
+    padding-right: 85px;
 }
 
 .contactInfo {
@@ -45,10 +59,39 @@ h4 {
   top: 0px;
   margin-top: 200px;
   margin-right: 400px;
-  margin-left: 330px;
-  width: 850px;
-  height: 290px;
-  border: 10px solid #1a6889;
+  margin-left: 250px;
+  width: 70%;
+  height: 350px;
+  border: 15px solid #1a6889;
+}
+.number-sec{
+position: absolute;
+background-color: #1a6889;
+float: left;
+top: 395px;
+left: 310px;
+width: 259px;
+height: 55px;
+}
+.fas {
+    color: white;
+    margin: 12px;
+    font-size: 28px;   
+    letter-spacing: 2px;
+}
+.email-sec{
+    float: right;
+    position: absolute;
+    top: 395px;
+    left: 680px;
+    width: 470px;
+    height: 55px;
+    background-color: #1a6889;
+}
+.far{
+    color: white;
+    margin: 12px;
+    font-size: 28px;
 }
 * {
   padding: 0;
@@ -63,6 +106,7 @@ input {
   width: 100%;
   text-align: center;
 }
+
 h1 {
   font-weight: normal;
   font-size: 35px;

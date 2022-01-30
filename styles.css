@@ -24,11 +24,6 @@ h3 {
   font-size: 30px;
   text-align: center;
   margin-top: 45px;
-
-}
-.smll-text{
-    font-size: 24px;
-    font-family: 'Open Sans Condensed', sans-serif;    
 }
 
 h4 {
@@ -43,14 +38,18 @@ h4 {
   position: relative;
   float: left;
 }
+.smll-text {
+  font-size: 24px;
+  font-family: "Open Sans Condensed", sans-serif;
+}
 .truckpic {
   height: 540px;
   width: 100%;
   position: static;
 }
-.about{
-    padding-left: 85px;
-    padding-right: 85px;
+.about {
+  padding-left: 85px;
+  padding-right: 85px;
 }
 
 .contactInfo {
@@ -64,35 +63,210 @@ h4 {
   height: 350px;
   border: 15px solid #1a6889;
 }
-.number-sec{
-position: absolute;
-background-color: #1a6889;
-float: left;
-top: 395px;
-left: 310px;
-width: 259px;
-height: 55px;
+.number-sec {
+  position: absolute;
+  background-color: #1a6889;
+  float: left;
+  top: 395px;
+  left: 310px;
+  width: 259px;
+  height: 55px;
 }
 .fas {
-    color: white;
-    margin: 12px;
-    font-size: 28px;   
-    letter-spacing: 2px;
+  color: white;
+  margin: 12px;
+  font-size: 28px;
+  letter-spacing: 2px;
 }
-.email-sec{
-    float: right;
+.email-sec {
+  float: right;
+  position: absolute;
+  top: 395px;
+  left: 650px;
+  width: 470px;
+  height: 55px;
+  background-color: #1a6889;
+}
+.far {
+  color: white;
+  margin: 12px;
+  font-size: 28px;
+}
+
+#services{
+  background-color: #1a6889;
+}
+#services h2 {
+  background-color: #1a6889;
+  height: 75px;
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 1350px) {
+    .contactInfo {
+        position: absolute;
+        margin-left: 140px;
+        width: 900px;
+        border: 10px solid #1a6889;
+      }
+      h3 {
+        font-size: 35px;
+        margin-top: 20px;
+      }
+      .number-sec {
+        top: 395px;
+        left: 200px;
+        width: 250px;
+        height: 50px;
+      }
+      .fas {
+        font-size: 25px;
+      }
+      .email-sec {
+          top: 395px;
+          left: 550px;
+          width: 430px;
+          height: 50px;
+        }
+        .far {
+          font-size: 25px;
+  
+      }
+    }
+
+    @media (max-width: 950px){
+        .contactInfo {
+            position: absolute;
+            margin-left: 40px;
+            width: 850px;
+            border: 10px solid #1a6889;
+          }
+          h3 {
+            font-size: 32px;
+            margin-top: 20px;
+          }
+          .number-sec {
+            top: 395px;
+            left: 100px;
+            width: 250px;
+            height: 50px;
+          }
+          .fas {
+            font-size: 25px;
+          }
+          .email-sec {
+              top: 395px;
+              left: 400px;
+              width: 430px;
+              height: 50px;
+            }
+            .far {
+              font-size: 25px;
+      
+          }
+    } 
+    @media (max-width: 768px) {
+  .contactInfo {
     position: absolute;
-    top: 395px;
-    left: 680px;
-    width: 470px;
-    height: 55px;
-    background-color: #1a6889;
-}
-.far{
-    color: white;
-    margin: 12px;
+    margin-left: 30px;
+    width: 700px;
+    border: 10px solid #1a6889;
+  }
+  h3 {
     font-size: 28px;
+    margin-top: 20px;
+  }
+  .number-sec {
+    top: 320px;
+    left: 270px;
+    width: 240px;
+    height: 45px;
+  }
+  .fas {
+    font-size: 25px;
+  }
+  .email-sec {
+      top: 395px;
+      left: 180px;
+      width: 430px;
+      height: 50px;
+    }
+    .far {
+      font-size: 25px;
+
+  }
+    }
+
+
+@media (max-width: 428px) {
+    .contactInfo {
+      position: absolute;
+      margin-left: 40px;
+      width: 350px;
+      border: 5px solid #1a6889;
+    }
+    h3 {
+      font-size: 25px;
+      margin-top: 20px;
+    }
+    .number-sec {
+      top: 365px;
+      left: 120px;
+      width: 200px;
+      height: 40px;
+    }
+    .fas {
+      font-size: 20px;
+    }
+    .email-sec {
+        top: 435px;
+        left: 60px;
+        width: 310px;
+        height: 50px;
+      }
+      .far {
+        font-size: 18px;
+
+    }
+  }
+
+@media (max-width: 400px) {
+  .truckpic {
+    height: 450px;
+  }
+  .contactInfo {
+    position: absolute;
+    margin-left: 10px;
+    width: 350px;
+    height: 330px;
+    border: 5px solid #1a6889;
+  }
+  h3 {
+    font-size: 17px;
+    margin-top: 15px;
+  }
+  .number-sec {
+    top: 325px;
+    left: 90px;
+    width: 200px;
+    height: 40px;
+  }
+  .fas {
+    font-size: 20px;
+  }
+  .email-sec {
+    top: 392px;
+    left: 30px;
+    width: 310px;
+    height: 50px;
+  }
+  .far {
+    font-size: 18px;
+  }
 }
+
+
 * {
   padding: 0;
   margin: 0;

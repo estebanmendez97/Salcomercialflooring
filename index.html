@@ -11,7 +11,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet"> 
   <script src="https://kit.fontawesome.com/e18b383ed9.js" ></script>
-    <title>Sal Commercial Flooring</title>
+
+  <title>Sal Commercial Flooring</title>
   </head>
   <body>
     <!---nav section --->
@@ -44,24 +45,44 @@
     <section id="aboutUs" class="about">
       <h2>About US</h2>
       <h3 class="smll-text">
-        When it comes to your flooring needs, Sal Commercial Flooring takes the lead. With 25 years of experienced in installation from Carpet, Hard wood, Step Vinyl and many more.
+        When it comes to your flooring needs, Sal Commercial Flooring takes the lead. With 25 years of experienced in installation from Carpet, Hard wood, Step Vinyl and many more. We provide service to New York, New Jersey and Connecticut.
       </h3>
     </section>
     <section id="services">
       <h2>Services</h2></section>
+
     <section id="flooring"><h2>Flooring</h2>
     </section>
-    <section id="contactUs"><h2>Contact US</h2></section>
-    <!---image section --->
-    <input type="radio" name="photos" id="check1" checked>
-    <input type="radio" name="photos" id="check2" checked>
-    <input type="radio" name="photos" id="check3" checked>
-    <input type="radio" name="photos" id="check4" checked>
-    <input type="radio" name="photos" id="check5" checked>
 
-      </div>
+    <section id="contactUs">
+      <h2>Contact US</h2>
+      <div class="in-form" >
+      <form action="https://formspree.io/f/meqnalde" method="POST" id="my-form">
 
+        <div class="form-group" id="fName">
+          <label class="text-ph" for="fulname"> Name</label>
+          <input type="text" id="full-na" class="f-name">
+        </div>
+
+        <div class="form-group" id="pName">
+          <label class="ph-num" for="phoneNumber">Phone Number</label>
+          <input type="text" id="phoneNumber" name="phoneNumber">
+        </div>
+        <div id="error"></div>
+
+        <div class="form-group">
+          <label for="Message" class="mess-one">Message</label>
+          <textarea name="Message" id="Message" class="mess-two" cols="30" rows="10"></textarea>
+        </div>
+  
+        <button class="but" type="submit">Submit</button>
+      </form>
     </div>
-
+    <div id="status"></div>
+    </section>
+      </div>
+    </div>
+    <script defer src="script.js"></script>
+    
   </body>
 </html>

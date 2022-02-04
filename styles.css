@@ -104,7 +104,7 @@ h4 {
 }
 #contactUs {
   background-color: #1a6889;
-  height: 600px;
+  height: 650px;
 }
 .in-form {
   background-color: #2286b16b;
@@ -167,16 +167,10 @@ h4 {
   margin-left: 40px;
 }
 
-.countI {
-  
-  color: #0d0d0d;
-  font-size: 20px;
-}
-
 @media (max-width: 1350px) {
   .contactInfo {
     position: absolute;
-    margin-left: 140px;
+    margin-left: 20%;
     width: 900px;
     border: 10px solid #1a6889;
   }
@@ -186,7 +180,7 @@ h4 {
   }
   .number-sec {
     top: 395px;
-    left: 200px;
+    left: 23%;
     width: 250px;
     height: 50px;
   }
@@ -195,13 +189,14 @@ h4 {
   }
   .email-sec {
     top: 395px;
-    left: 550px;
+    left: 48%;
     width: 430px;
     height: 50px;
   }
   .far {
     font-size: 25px;
   }
+  
 }
 
 @media (max-width: 950px) {
@@ -233,6 +228,9 @@ h4 {
   .far {
     font-size: 25px;
   }
+  .in-form{
+    left: 15%;   
+   }
 }
 @media (max-width: 768px) {
   .contactInfo {
@@ -262,6 +260,9 @@ h4 {
   }
   .far {
     font-size: 25px;
+  }
+  .in-form{
+    left: 4%;
   }
 }
 
@@ -294,6 +295,36 @@ h4 {
   .far {
     font-size: 18px;
   }
+  .in-form{
+    left: 5%;
+    width: 90% ;
+    height: 55%;
+  }
+
+  #fName {
+    margin-left: 100px;
+  }
+  .text-ph {
+    margin-left: -100px;
+  }
+
+  #pName{
+    margin-left: 100px;
+  }
+  .ph-num {
+    margin-left: -100px;
+  }
+  .mess-one{
+   margin-left: 35%;
+  }
+  .mess-two{
+    margin-left: 1%;
+  }
+  .but{
+    height: 45px;
+    margin-left: 10px;
+
+  }
 }
 
 @media (max-width: 400px) {
@@ -302,7 +333,7 @@ h4 {
   }
   .contactInfo {
     position: absolute;
-    margin-left: 10px;
+    margin-left: 25px;
     width: 350px;
     height: 330px;
     border: 5px solid #1a6889;
@@ -313,7 +344,7 @@ h4 {
   }
   .number-sec {
     top: 325px;
-    left: 90px;
+    left: 95px;
     width: 200px;
     height: 40px;
   }
@@ -322,12 +353,128 @@ h4 {
   }
   .email-sec {
     top: 392px;
-    left: 30px;
+    left: 45px;
     width: 310px;
     height: 50px;
   }
   .far {
     font-size: 18px;
+  }
+  #fName {
+    margin-left: 25%;
+  }
+  #pName {
+    margin-left: 25%;
+  }
+  .ph-num {
+    margin-left: -90px;
+  }
+
+}
+
+
+@media (max-width: 375px) {
+  .truckpic {
+    height: 450px;
+  }
+  .contactInfo {
+    position: absolute;
+    margin-left: 3%;
+    width: 350px;
+    height: 300px;
+    border: 5px solid #1a6889;
+  }
+  .about{
+    height: 400px;
+  }
+  h3 {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  section .about-text {
+    position:relative;
+    left: -30px;
+    margin-top: 50px;
+    width: 300px;
+  }
+  section .smll-text{
+  position: absolute;
+  margin-top: 50px;
+  left:  20px;
+  right: 15px;
+  height: 300px;
+  }
+  .number-sec {
+    top: 325px;
+    left: 95px;
+    width: 200px;
+    height: 40px;
+  }
+  .fas {
+    font-size: 20px;
+  }
+  .email-sec {
+    top: 392px;
+    left: 34px;
+    width: 310px;
+    height: 50px;
+  }
+
+  .far {
+    font-size: 18px;
+  }
+  .text-ph{
+    margin-left: -66px;
+  }
+  #fName {
+    margin-left: 25%;
+  }
+  #pName {
+    margin-left: 25%;
+  }
+  .ph-num {
+    margin-left: -60px;
+  }
+
+  .mess-two{
+    width: 310px;
+  }
+  .but{
+    width: 150px;
+    height: 40px;
+  }
+
+}
+
+@media (max-width: 360px) {
+  .contactInfo{
+    width: 325px;
+    margin-left: 18px;
+  }
+  .number-sec {
+    top: 325px;
+    left: 85px;
+    width: 200px;
+    height: 40px;
+  }
+  .email-sec {
+    top: 392px;
+    left: 35px;
+    width: 290px;
+    height: 50px;
+  }
+  .far {
+    font-size: 17px;
+  }
+  #fName {
+    margin-left: 20%;
+  }
+  #pName {
+    margin-left: 20%;
+  }
+  .mess-two{
+    width: 300px;
   }
 }
 

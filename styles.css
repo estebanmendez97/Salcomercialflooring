@@ -3,42 +3,35 @@ html body {
   margin: 0px;
   height: 100%;
 }
-section {
-  background-color: white;
-  text-align: center;
-  margin-top: 10px;
-  height: 380px;
-}
 
 h1 {
   font-weight: normal;
-  font-size: 37px;
-  margin: 0px 0;
+  font-size: 300%;
+  margin: 0%;
   text-align: center;
   background-color: white;
-  font-family: 'Playfair Display SC', serif;
-
+  font-family: 'Playfair Display SC', serif
 
 }
 
 h2 {
   text-align: center;
   color: #35728b;
-  margin-top: 80px;
-  font-size: 45px;
+  margin-top: 1%;
+  font-size: 290%;
   font-family: 'Lato', sans-serif;
 }
 header h3{
-
+  font-weight: normal;
   font-family: 'Playfair Display SC', serif;
-  font-size: 35px;
+  font-size: 250%;
 } 
 
 h3 {
   font-family: 'Playfair Display SC', serif;
-  font-size: 35px;
+  font-size: 200%;
   text-align: center;
-  margin-top: 45px;
+  margin-top: 5%;
 }
 
 h4 {
@@ -53,59 +46,61 @@ h4 {
   position: relative;
   float: left;
 }
-.smll-text {
-  font-size: 24px;
-  font-family: "Open Sans Condensed", sans-serif;
+.contactInfo {
+  background-color: rgba(255, 255, 255, 0.753);
+  top: 30%;
+  margin-right: 40%;
+  margin-left: 19%;
+  position: absolute;
+  width: 70%;
+  height: 350px;
+  border: 15px solid #1a6889;
 }
 .truckpic {
   height: 540px;
   width: 100%;
   position:initial;
 }
-.about {
-  padding-left: 85px;
-  padding-right: 85px;
-}
-
-.contactInfo {
-  background-color: rgba(255, 255, 255, 0.753);
-  top: 170px;
-  margin-right: 400px;
-  margin-left: 250px;
-  position: absolute;
-  width: 70%;
-  height: 350px;
-  border: 15px solid #1a6889;
-}
 .number-sec {
   position: absolute;
   background-color: #1a6889;
   float: left;
-  top: 395px;
-  left: 310px;
-  width: 259px;
-  height: 55px;
+  top: 60%;
+  left: 22%;
+  width: 19%;
+  height: 60px;
 }
 .fas {
-
   color: white;
-  margin: 12px;
-  font-size: 28px;
+  margin-top: 7%;
+  margin-left: 18%;
+  font-size: 3.5vmin;
   letter-spacing: 2px;
 }
 .email-sec {
   float: right;
   position: absolute;
-  top: 395px;
-  left: 600px;
-  width: 545px;
-  height: 55px;
+  top: 60%;
+  left: 45%;
+  width: 40%;
+  height: 60px;
   background-color: #1a6889;
 }
 .far {
   color: white;
-  margin: 12px;
-  font-size: 28px;
+  margin-top: 3%;
+  margin-left: 20%;
+  font-size: 3.5vmin;
+
+}
+.about {
+  padding-left: 10%;
+  padding-right: 8%;
+  height: 350px;
+}
+.smll-text {
+  font-size: 200%;
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
 #services {
@@ -123,15 +118,16 @@ h4 {
 }
 .img-ser {
   float: left;
-  margin-left: 30px;
-  margin-right: 10px;
+  margin-top: 5%;
+  margin-left: 3%;
+  margin-right: 5%;
   height: 250px;
   width: 200px;
 }
 .img-ser-one {
   float: left;
-  margin-top: 50px;
-  margin-left: 120px;
+  margin-top: 5%;
+  margin-left: 30%;
   height: 250px;
   width: 200px;
 }
@@ -141,517 +137,430 @@ h4 {
   width: 50%;
   top: -200px;
 }
-
-.fi {
-  font-size: 15px;
+.service-text{
+  margin-left: 0%;
+  margin-right: 5%;
+}
+section .fas {
+  font-size: 120%;
+  margin-top: 8%;
+  margin-left: 10%;
+  text-transform: uppercase;
+}
+#flooring{
+  height: 600px;
 }
 #contactUs {
   background-color: #1a6889;
-  height: 650px;
+  height: 700px;
 }
 .in-form {
   background-color: #2286b16b;
-  position: absolute;
-  left: 25%;
+  margin-left: 25%;
   width: 700px;
   height: 500px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
-.service-text{
-  margin-top: 0px;
-  margin-bottom: 40px;
-}
+
 #contactUs h2 {
   color: #ffffff;
-  margin-bottom: 20px;
+  margin-bottom: 5%;
 }
 .form-group input {
   display: block;
   color: black;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 2%;
+  margin-bottom: 2%;
   height: 30px;
   border: 1px solid #000000a8;
 }
 #fName {
   text-align: center;
-  margin-top: 20px;
-  margin-left: 270px;
+  margin-top: 4%;
+  margin-left: 38%;
 }
 .text-ph {
   position: relative;
-  margin-left: -230px;
-  font-size: 20px;
+  margin-left: -60%;
+  font-size: 150%;
 }
 #pName {
   text-align: center;
-  margin-left: 270px;
+  margin-left: 38%;
 }
 .ph-num {
   position: relative;
-  margin-left: -230px;
-  font-size: 20px;
+  margin-left: -60%;
+  font-size: 150%;
 }
 .mess-one {
   text-align: center;
   position: absolute;
-  margin-left: 170px;
-  font-size: 20px;
+  margin-left: 23%;
+  font-size: 150%;
 }
 .mess-two {
-  margin-top: 28px;
-  margin-left: 40px;
-  margin-bottom: 10px;
+  margin-top: 7%;
+  margin-left: 33%;
+  margin-bottom: 2%;
   border: 1px solid #000000a8;
 }
 .but {
-  font-size: 20px;
+  font-size: 150%;
   height: 60px;
   width: 49%;
-  margin-top: 10px;
-  margin-left: 40px;
+  margin-left: 27%;
 }
 
-@media (max-width: 1350px) {
-  .contactInfo {
-    margin-left: 20%;
-    width: 900px;
-    border: 10px solid #1a6889;
-  }
-  h3 {
-    font-size: 35px;
-    margin-top: 20px;
-  }
-  .number-sec {
-    top: 395px;
-    left: 23%;
-    width: 250px;
-    height: 50px;
-  }
+@media (max-width: 1153px) {
   .fas {
-    font-size: 25px;
+    margin-left: 18%;
+    font-size: 3vmin;
+    letter-spacing: 2px;
   }
-  .email-sec {
-    top: 395px;
-    left: 48%;
-    width: 480px;
-    height: 50px;
-  }
+  
   .far {
-    font-size: 25px;
+    color: white;
+    margin-top: 4%;
+    margin-left: 18%;
+    font-size: 3vmin;
+  
+  }
+
+  #services {
+    background-color: #1a6889;
+    height: 900px;
+  }
+  .service-img {
+    width: 50%;
+  }
+  .img-ser {
+    float: left;
+    margin-top: 5%;
+    margin-left: 20%;
+    height: 170px;
+    width: 200px;
+  }
+  .img-ser-one {
+    float: left;
+    margin-top: 5%;
+    margin-left: 20%;
+    height: 170px;
+    width: 200px;
+  }
+  .service-icon {
+    float: right;
+    position: relative;
+    width: 50%;
+    top: -300px;
+  }
+  .service-text{
+    margin-left: 0%;
+    margin-right: 5%;
+  }
+  section .fas {
+    font-size: 120%;
+    margin: 45px;
+    text-transform: uppercase;
+  }
+  #flooring h2 {
+    text-align: center;
+  }
+  #contactUs h2 {
+    text-align: center;
+  }
+  .mess-one {
+    margin-left: 27%;
+  }
+  .in-form {
+    margin-left: 20%;
   }
 }
 
 @media (max-width: 950px) {
-  .contactInfo {
-    margin-left: 40px;
-    width: 850px;
-    border: 10px solid #1a6889;
-  }
-  h3 {
-    font-size: 32px;
-    margin-top: 20px;
-  }
-  .number-sec {
-    top: 395px;
-    left: 100px;
-    width: 250px;
-    height: 50px;
-  }
   .fas {
-    font-size: 25px;
-  }
-  .email-sec {
-    top: 395px;
-    left: 390px;
-    width: 460px;
-    height: 50px;
+    margin-top: 11%;
+    margin-left: 14%;
+    font-size: 2.5vmin;
   }
   .far {
-    font-size: 24px;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 3vmin;
+  
   }
   .in-form {
-    left: 15%;
+    margin-left: 13%;
   }
-  .service-icon {
-    float: right;
-    position: relative;
-    width: 50%;
-  }
-  .img-ser {
-    float: left;
-    margin-top: 50px;
-    margin-left: 30px;
-    margin-right: 10px;
-    height: 180px;
-    width: 170px;
-  }
-  .img-ser-one {
-    float: left;
-    margin-top: 50px;
-    margin-left: 120px;
-    height: 180px;
-    width: 170px;
+  .mess-one{
+    margin-left: 300px;
   }
 }
+
+@media (max-width: 854px) {
+   h1{
+     font-size: 280%;
+   }
+   header h3{
+    font-weight: normal;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 220%;
+  } 
+  .fas{
+    margin-top: 6%;
+    margin-left: 20%;
+  }
+  .number-sec{
+    top: 55%;
+    left: 42%;
+    height: 40px;
+    width: 25%;
+  }
+  .email-sec{
+    left: 32%;
+    top: 65%;
+    width: 44%;
+    height: 40px;
+  }
+  .far {
+    font-size: 2.5vmin;
+    margin-top: 3%;
+    margin-left: 15%;
+    }
+
+    section .fas {
+      font-size: 110%;
+      margin: 30px;
+      text-transform: uppercase;
+    }
+    .in-form{
+      margin-left: 8%;
+    }
+}
+
+
 @media (max-width: 768px) {
-  .contactInfo {
-    margin-left: 30px;
-    width: 700px;
-    border: 10px solid #1a6889;
-  }
-  h3 {
-    font-size: 28px;
-    margin-top: 20px;
+  h1 {
+    font-size: 250%;
+
+    margin-top: 2%;
   }
   .number-sec {
-    top: 320px;
-    left: 270px;
-    width: 240px;
-    height: 45px;
+    top: 45%;
+    left: 40%;
+    width: 30% ;
   }
-  .fas {
-    font-size: 25px;
-  }
-  .email-sec {
-    top: 395px;
-    left: 180px;
-    width: 460px;
-    height: 50px;
-  }
-  .far {
-    font-size: 24px;
-  }
-  .in-form {
-    left: 4%;
-  }
-  .service-icon {
-    float: right;
-    position: relative;
-    top: -300px;
+  .email-sec{
     width: 50%;
+    top: 55%;
+    left: 30%;
   }
-  .img-ser {
-    float: left;
-    margin-top: 20px;
-    margin-left: 100px;
-    margin-right: 10px;
-    height: 180px;
-    width: 170px;
+  header h3 {
+    font-size: 180%;
   }
-  .img-ser-one {
-    float: left;
-    margin-top: 30px;
-    margin-left: 100px;
-    height: 180px;
-    width: 170px;
+ 
+  section .fas {
+    font-size: 110%;
+    margin: 20px;
+    margin-top: 10%;
+    text-transform: uppercase;
   }
-}
-
-@media (max-width: 428px) {
-  h1{
-    font-size: 45px;
-    margin-left: 10px;
-    height: 70px;
+  .service-text{
+    font-size: 150%;
+    margin-left: 0%;
+    margin-bottom: 10%;
+    margin-right: 5%;
   }
-
-  .contactInfo {
-    position: absolute;
-    margin-top: 120px;
-    margin-left: 40px;
-    width: 350px;
-    border: 5px solid #1a6889;
+  .img-ser{
+    margin-top: 10%;
   }
-  .truckpic{
-    margin-top: 90px;
+  .img-ser-one{
+    margin-top: 10%;
   }
-  header h3{
-    font-size: 25px;
+ 
+  .in-form{
+    margin-left: 14%;
+    height: 70%;
+    width: 70%;
   }
-  h3 {
-    font-size: 20px;
-    margin-top: 20px;
-  }
-  .number-sec {
-    top: 440px;
-    left: 120px;
-    width: 200px;
-    height: 40px;
-  }
-  .fas {
-    font-size: 20px;
-  }
-  .email-sec {
-    top: 504px;
-    left: 60px;
-    width: 310px;
-    height: 40px;
-  }
-  .far {
-    font-size: 16px;
-  }
-  .in-form {
-    left: 5%;
-    width: 90%;
-    height: 55%;
-  }
-
   #fName {
-    margin-left: 100px;
-  }
-  .text-ph {
-    margin-left: -100px;
-  }
-
-  #pName {
-    margin-left: 100px;
-  }
-  .ph-num {
-    margin-left: -100px;
-  }
-  .mess-one {
+    margin-top: 4%;
     margin-left: 35%;
   }
-  .mess-two {
-    margin-left: 1%;
-  }
-  .but {
-    height: 45px;
-    margin-left: 10px;
-  }
-  
-  .img-ser {
-    float: left;
-    margin-top: 20px;
-    margin-left: 40px;
-    margin-right: 10px;
-    height: 150px;
-    width: 140px;
-  }
-  .img-ser-one {
-    float: left;
-    margin-top: 30px;
-    margin-left: 140px;
-    height: 150px;
-    width: 140px;
-  }
-  
-  .service-img {
-  width: 100%;
-
-  }
- #services {
-   height: 750px;
- }
-  .service-text{
-    margin-top: 0%;
-  }
-  .service-icon {
-    float: bottom;
-    position: relative;
-    margin-top: 0px;
-    top: 40px;
-    width: 100%;
-  }
-}
-
-@media (max-width: 400px) {
-  .truckpic {
-    height: 450px;
-  }
-  .contactInfo {
-    position: absolute;
-    margin-left: 25px;
-    width: 350px;
-    height: 330px;
-    border: 5px solid #1a6889;
-  }
-  h1{
-    font-size: 40px;
-  }
-  h3 {
-    font-size: 17px;
-    margin-top: 15px;
-  }
-  .number-sec {
-    top: 465px;
-    left: 95px;
-    width: 200px;
-    height: 40px;
-  }
-  .fas {
-    font-size: 20px;
-  }
-  .email-sec {
-    top: 520px;
-    left: 45px;
-    width: 310px;
-    height: 50px;
-  }
-  .far {
-    font-size: 16px;
-  }
-  #fName {
-    margin-left: 25%;
+  .text-ph {
+    font-size: 150%;
+    margin-left: -50%;
   }
   #pName {
-    margin-left: 25%;
+   margin-left: 35%;
   }
   .ph-num {
-    margin-left: -90px;
+    font-size: 140%;
+    margin-left: -48%;
   }
-  .service-icon .fas{
-   font-size: 15px;
+  .mess-one {
+    margin-left: 30%;
+  }
+  .mess-two {
+   margin-left: 27%;
   }
 }
 
-@media (max-width: 375px) {
-  .truckpic {
-    height: 450px;
+@media (max-width: 600px) {
+  
+  .contactInfo{
+    margin-top: 15%;
   }
-  h1{
-    font-size: 40px;
+  .number-sec{
+    margin-top: 20%;
+    margin-left: -5%;
+    width: 40%;
   }
-  .contactInfo {
-    position: absolute;
-    margin-left: 3%;
-    width: 350px;
-    height: 300px;
-    border: 5px solid #1a6889;
+  .fas{
+    font-size: 3vmin;
   }
-  .about {
-    height: 400px;
-  }
-  h3 {
-    font-size: 20px;
-    margin-top: 15px;
-
-  }
-
-  section .about-text {
-    position: relative;
-    left: -30px;
-    margin-top: 50px;
-    width: 300px;
-  }
-  section .smll-text {
-    position: absolute;
-    margin-top: 50px;
-    left: 20px;
-    right: 15px;
-    height: 300px;
-  }
-  .number-sec {
-    top: 460px;
-    left: 95px;
-    width: 200px;
-    height: 40px;
-  }
-  .fas {
-    font-size: 20px;
-  }
-  .email-sec {
-    top: 520px;
-    left: 34px;
-    width: 312px;
-    height: 40px;
-  }
-  .in-form{
-    height: 450px;
+  .email-sec{
+    margin-top: 20%;
+    left: 27%;
+    width: 55%;
   }
   .far {
-    font-size: 16px;
+    
+    font-size: 2.5vmin;
+  }
+  .smll-text {
+    font-size: 150%;
+  }
+  .img-ser{
+    width: 55%;
+  }
+  .img-ser-one{
+    width: 55%;
+  }
+  section .fas {
+    font-size: 100%;
+    margin-left: 20%;
+    margin-top: 6%;
+    text-transform: uppercase;
+  }
+  #fName {
+    margin-top: 4%;
+    margin-left: 30%;
   }
   .text-ph {
-    margin-left: -66px;
-  }
-  #fName {
-    margin-left: 25%;
+    font-size: 150%;
+    margin-left: -35%;
   }
   #pName {
-    margin-left: 25%;
+   margin-left: 30%;
   }
   .ph-num {
-    margin-left: -60px;
+    font-size: 140%;
+    margin-left: -38%;
   }
-
+  .mess-one {
+    margin-left: 28%;
+  }
   .mess-two {
-    width: 310px;
+   margin-left: 20%;
   }
-  .but {
-    width: 150px;
-    height: 40px;
-  }
-
-  .img-ser {
-    float: left;
-    margin-top: 20px;
-    margin-left: 40px;
-    margin-right: 10px;
-    height: 140px;
-    width: 120px;
-  }
-  .img-ser-one {
-    float: left;
-    margin-top: 30px;
-    margin-left: 130px;
-    height: 140px;
-    width: 120px;
+  .but{
+    margin-top: 5%;
+    height: 50px;
   }
   
-  .service-img {
-  width: 100%;
+  
+}
 
+@media (max-width: 480px) {
+  .number-sec{
+    margin-top: 30%;
+    margin-left: -5%;
+    width: 40%;
   }
-  .service-icon {
-    float: bottom;
-    position: relative;
-    margin-top: 10px;
-    width: 100%;
+  .fas{
+    font-size: 3vmin;
+  }
+  .email-sec{
+    margin-top: 28%;
+    left: 27%;
+    width: 55%;
+  }
+  .far {
+    margin-top: 5%;
+    font-size: 2.7vmin;
+  }
+  .mess-two {
+    margin-top: 10%;
+    margin-left: 18%;
+   }
+   .but{
+     margin-left: 30%;
+   }
+}
+@media (max-width: 428px) {
+  #fName {
+    margin-left: 20%;
+  }
+  .text-ph {
+    margin-left: -25%;
+  }
+  #pName {
+   margin-left: 20%;
+  }
+  .ph-num {
+    margin-left: -26%;
+  }
+  .mess-one {
+    margin-left: 25%;
+  }
+  .mess-two {
+   margin-left: 8%;
+  }
+  .but{
+    margin-top: 5%;
+    margin-left: 25%;
+    height: 50px;
+  }
+}
+@media (max-width: 390px) {
+  .fas{
+    margin-top: 10%;
+    font-size: 3.2vmin;
+  }
+  .far {
+    margin-left: 10%;
+    font-size: 2.9vmin;
+  }
+  .in-form{
+    margin-left: 10%;
+    height: 70%;
+    width: 80%;
+  }
+}
+@media (max-width: 375px) {
+  header h3 {
+    font-size: 6vmin;
+  }
+  .contactInfo{
+    margin-top: 30%;
+  }
+  .number-sec{
+    margin-top: 50%;
+    margin-left: -5%;
+  }
+  .email-sec{
+    margin-top: 50%;
+    left: 27%;
+    width: 55%;
   }
 }
 
-@media (max-width: 360px) {
-  #aboutUs {
-   height: 300px;
-  }
-  #services{
-    height: 750px;
-  }
-  .contactInfo {
-    width: 325px;
-    margin-left: 18px;
+@-moz-document url-prefix(){
+  .fas {
+  font-size: 28px;
   }
   
-
-  h3{
-    margin-top: 40px;
-  }
-  section .about-text{
-    margin-left: -20px;
-  }
-  .number-sec {
-    left: 85px;
-    width: 200px;
-    height: 40px;
-  }
-  .email-sec {
-    left: 35px;
-    width: 290px;
-    height: 40px;
-  }
-  .far {
-    font-size: 15px;
-  }
-  #fName {
-    margin-left: 20%;
-  }
-  #pName {
-    margin-left: 20%;
-  }
-  .mess-two {
-    width: 300px;
-  }
 }
 
 * {
@@ -668,18 +577,6 @@ input {
   text-align: center;
 }
 
-
-@keyframes animate {
-  0% {
-    width: 100px;
-  }
-  50% {
-    width: 250px;
-  }
-  100% {
-    width: 100px;
-  }
-}
 .top-content {
   background-color: lightgray;
 }
@@ -702,8 +599,8 @@ nav ul li {
 nav ul li a {
   position: relative;
   color: #ffffff;
-  font-size: 18px;
-  padding: 0 10px;
+  font-size: 10px;
+  padding: 0 5x;
   text-transform: uppercase;
   font-style: italic;
   text-decoration: none;
@@ -730,9 +627,8 @@ nav ul li a:hover:before {
 label #btn,
 label #cancel {
   color: white;
-  font-size: 30px;
+  font-size: 35px;
   float: right;
-  line-height: 80px;
   margin-left: 40px;
   cursor: pointer;
   display: none;
@@ -746,7 +642,7 @@ nav ul li a {
   font-size: 17px;
 }
 
-@media (max-width: 428px) {
+@media (max-width: 480px) {
   label #btn {
     display: block;
   }
@@ -766,7 +662,7 @@ nav ul li a {
     line-height: 30px;
   }
   nav ul li a {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 #check:checked ~ ul {

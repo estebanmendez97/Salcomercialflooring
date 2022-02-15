@@ -10,8 +10,7 @@ h1 {
   margin: 0%;
   text-align: center;
   background-color: white;
-  font-family: 'Playfair Display SC', serif
-
+  font-family: "Playfair Display SC", serif;
 }
 
 h2 {
@@ -19,16 +18,16 @@ h2 {
   color: #35728b;
   margin-top: 1%;
   font-size: 290%;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
-header h3{
+header h3 {
   font-weight: normal;
-  font-family: 'Playfair Display SC', serif;
+  font-family: "Playfair Display SC", serif;
   font-size: 250%;
-} 
+}
 
 h3 {
-  font-family: 'Playfair Display SC', serif;
+  font-family: "Playfair Display SC", serif;
   font-size: 200%;
   text-align: center;
   margin-top: 5%;
@@ -59,39 +58,22 @@ h4 {
 .truckpic {
   height: 540px;
   width: 100%;
-  position:initial;
+  position: initial;
 }
-.number-sec {
-  position: absolute;
-  background-color: #1a6889;
-  float: left;
-  top: 60%;
-  left: 22%;
-  width: 19%;
-  height: 60px;
-}
-.fas {
-  color: white;
-  margin-top: 7%;
-  margin-left: 18%;
-  font-size: 3.5vmin;
-  letter-spacing: 2px;
-}
+
 .email-sec {
   float: right;
   position: absolute;
   top: 60%;
-  left: 45%;
-  width: 40%;
+  left: 22%;
+  width: 50%;
   height: 60px;
   background-color: #1a6889;
 }
 .far {
   color: white;
   margin-top: 3%;
-  margin-left: 20%;
   font-size: 3.5vmin;
-
 }
 .about {
   padding-left: 10%;
@@ -137,7 +119,7 @@ h4 {
   width: 50%;
   top: -200px;
 }
-.service-text{
+.service-text {
   margin-left: 0%;
   margin-right: 5%;
 }
@@ -147,7 +129,7 @@ section .fas {
   margin-left: 10%;
   text-transform: uppercase;
 }
-#flooring{
+#flooring {
   height: 600px;
 }
 #contactUs {
@@ -213,18 +195,12 @@ section .fas {
 }
 
 @media (max-width: 1153px) {
-  .fas {
-    margin-left: 18%;
-    font-size: 3vmin;
-    letter-spacing: 2px;
-  }
-  
+
   .far {
     color: white;
     margin-top: 4%;
     margin-left: 18%;
     font-size: 3vmin;
-  
   }
 
   #services {
@@ -254,15 +230,11 @@ section .fas {
     width: 50%;
     top: -300px;
   }
-  .service-text{
+  .service-text {
     margin-left: 0%;
     margin-right: 5%;
   }
-  section .fas {
-    font-size: 120%;
-    margin: 45px;
-    text-transform: uppercase;
-  }
+
   #flooring h2 {
     text-align: center;
   }
@@ -278,45 +250,32 @@ section .fas {
 }
 
 @media (max-width: 950px) {
-  .fas {
-    margin-top: 11%;
-    margin-left: 14%;
-    font-size: 2.5vmin;
-  }
+  
   .far {
     margin-top: 5%;
     margin-left: 10%;
     font-size: 3vmin;
-  
   }
   .in-form {
     margin-left: 13%;
   }
-  .mess-one{
+  .mess-one {
     margin-left: 300px;
   }
 }
 
 @media (max-width: 854px) {
-   h1{
-     font-size: 280%;
-   }
-   header h3{
+  h1 {
+    font-size: 280%;
+  }
+  header h3 {
     font-weight: normal;
-    font-family: 'Playfair Display SC', serif;
+    font-family: "Playfair Display SC", serif;
     font-size: 220%;
-  } 
-  .fas{
-    margin-top: 6%;
-    margin-left: 20%;
   }
-  .number-sec{
-    top: 55%;
-    left: 42%;
-    height: 40px;
-    width: 25%;
-  }
-  .email-sec{
+  
+
+  .email-sec {
     left: 32%;
     top: 65%;
     width: 44%;
@@ -326,18 +285,17 @@ section .fas {
     font-size: 2.5vmin;
     margin-top: 3%;
     margin-left: 15%;
-    }
+  }
 
-    section .fas {
-      font-size: 110%;
-      margin: 30px;
-      text-transform: uppercase;
-    }
-    .in-form{
-      margin-left: 8%;
-    }
+  section .fas {
+    font-size: 110%;
+    margin: 30px;
+    text-transform: uppercase;
+  }
+  .in-form {
+    margin-left: 8%;
+  }
 }
-
 
 @media (max-width: 768px) {
   h1 {
@@ -345,12 +303,8 @@ section .fas {
 
     margin-top: 2%;
   }
-  .number-sec {
-    top: 45%;
-    left: 40%;
-    width: 30% ;
-  }
-  .email-sec{
+ 
+  .email-sec {
     width: 50%;
     top: 55%;
     left: 30%;
@@ -358,27 +312,27 @@ section .fas {
   header h3 {
     font-size: 180%;
   }
- 
+
   section .fas {
     font-size: 110%;
     margin: 20px;
     margin-top: 10%;
     text-transform: uppercase;
   }
-  .service-text{
+  .service-text {
     font-size: 150%;
     margin-left: 0%;
     margin-bottom: 10%;
     margin-right: 5%;
   }
-  .img-ser{
+  .img-ser {
     margin-top: 10%;
   }
-  .img-ser-one{
+  .img-ser-one {
     margin-top: 10%;
   }
- 
-  .in-form{
+
+  .in-form {
     margin-left: 14%;
     height: 70%;
     width: 70%;
@@ -392,7 +346,7 @@ section .fas {
     margin-left: -50%;
   }
   #pName {
-   margin-left: 35%;
+    margin-left: 35%;
   }
   .ph-num {
     font-size: 140%;
@@ -402,39 +356,29 @@ section .fas {
     margin-left: 30%;
   }
   .mess-two {
-   margin-left: 27%;
+    margin-left: 27%;
   }
 }
 
 @media (max-width: 600px) {
-  
-  .contactInfo{
+  .contactInfo {
     margin-top: 15%;
   }
-  .number-sec{
-    margin-top: 20%;
-    margin-left: -5%;
-    width: 40%;
-  }
-  .fas{
-    font-size: 3vmin;
-  }
-  .email-sec{
+  .email-sec {
     margin-top: 20%;
     left: 27%;
     width: 55%;
   }
   .far {
-    
     font-size: 2.5vmin;
   }
   .smll-text {
     font-size: 150%;
   }
-  .img-ser{
+  .img-ser {
     width: 55%;
   }
-  .img-ser-one{
+  .img-ser-one {
     width: 55%;
   }
   section .fas {
@@ -452,7 +396,7 @@ section .fas {
     margin-left: -35%;
   }
   #pName {
-   margin-left: 30%;
+    margin-left: 30%;
   }
   .ph-num {
     font-size: 140%;
@@ -462,26 +406,22 @@ section .fas {
     margin-left: 28%;
   }
   .mess-two {
-   margin-left: 20%;
+    margin-left: 20%;
   }
-  .but{
+  .but {
     margin-top: 5%;
     height: 50px;
   }
-  
-  
 }
 
 @media (max-width: 480px) {
-  .number-sec{
+  .number-sec {
     margin-top: 30%;
     margin-left: -5%;
     width: 40%;
   }
-  .fas{
-    font-size: 3vmin;
-  }
-  .email-sec{
+
+  .email-sec {
     margin-top: 28%;
     left: 27%;
     width: 55%;
@@ -490,13 +430,6 @@ section .fas {
     margin-top: 5%;
     font-size: 2.7vmin;
   }
-  .mess-two {
-    margin-top: 10%;
-    margin-left: 18%;
-   }
-   .but{
-     margin-left: 30%;
-   }
 }
 @media (max-width: 428px) {
   #fName {
@@ -506,7 +439,7 @@ section .fas {
     margin-left: -25%;
   }
   #pName {
-   margin-left: 20%;
+    margin-left: 20%;
   }
   .ph-num {
     margin-left: -26%;
@@ -515,24 +448,21 @@ section .fas {
     margin-left: 25%;
   }
   .mess-two {
-   margin-left: 8%;
+    margin-left: 8%;
   }
-  .but{
+  .but {
     margin-top: 5%;
     margin-left: 25%;
     height: 50px;
   }
 }
 @media (max-width: 390px) {
-  .fas{
-    margin-top: 10%;
-    font-size: 3.2vmin;
-  }
+
   .far {
     margin-left: 10%;
     font-size: 2.9vmin;
   }
-  .in-form{
+  .in-form {
     margin-left: 10%;
     height: 70%;
     width: 80%;
@@ -542,27 +472,19 @@ section .fas {
   header h3 {
     font-size: 6vmin;
   }
-  .contactInfo{
+  .contactInfo {
     margin-top: 30%;
   }
-  .number-sec{
+  .number-sec {
     margin-top: 50%;
     margin-left: -5%;
   }
-  .email-sec{
+  .email-sec {
     margin-top: 50%;
     left: 27%;
     width: 55%;
   }
 }
-
-@-moz-document url-prefix(){
-  .fas {
-  font-size: 28px;
-  }
-  
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -675,4 +597,235 @@ nav ul li a {
 
 #check:checked ~ label #cancel {
   display: block;
+}
+@-moz-document url-prefix() {
+
+  .far {
+    color: white;
+    margin-top: 4%;
+    margin-left: 18%;
+    font-size: 2.5vmin;
+  }
+  .mess-two {
+    margin-left: 27%;
+  }
+  @media (max-width: 990px) {
+    header h3 {
+      font-size: 5vmin;
+    }
+    .far {
+      margin-top: 5%;
+      margin-left: 15%;
+      font-size: 2.3vmin;
+    }
+    .in-form {
+      margin-left: 13%;
+    }
+    .mess-one {
+      margin-left: 300px;
+    }
+  }
+  section .fas {
+    font-size: 120%;
+    margin: 35px;
+  }
+
+@media (max-width: 854px) {
+  .number-sec {
+    width: 30%;
+  }
+  .email-sec {
+    width: 50%;
+  }
+  .far {
+    margin-top: 3%;
+    margin-left: 15%;
+    font-size: 2.3vmin;
+  }
+  section .fas {
+    font-size: 110%;
+    margin-top: 3%;
+    margin-left: 25%;
+  }
+}
+@media (max-width: 768px) {
+  .number-sec {
+    margin-top: 8%;
+  }
+  .email-sec {
+    margin-top: 10%;
+  }
+  .in-form {
+    height: 75%;
+    width: 70%;
+  }
+  .mess-one {
+    margin-left: 30%;
+  }
+  .mess-two {
+    margin-left: 20%;
+  }
+}
+@media (max-width: 670px) {
+  header h3 {
+    font-size: 4.7vmin;
+  }
+  .far{
+  font-size: 2vmin;
+  }
+  .number-sec {
+    margin-top: 13%;
+    margin-left: -5%;
+    width: 40%;
+  }
+
+  .email-sec {
+    margin-top: 15%;
+    margin-left: -4%;
+    width: 55%;
+  }
+  .in-form{
+    width: 75%;
+  }
+  .but {
+    margin-left: 30%;
+  }
+}
+
+@media (max-width: 585px) {
+  header h3 {
+    font-size: 4.7vmin;
+  }
+  .far{
+    margin-top: 4%;
+  font-size: 2vmin;
+  }
+  .number-sec {
+    margin-top: 30%;
+    margin-left: -5%;
+    width: 40%;
+  }
+
+  .email-sec {
+    margin-top: 30%;
+    margin-left: 0%;
+    width: 55%;
+  }
+  .mess-two{
+    width: 70%;
+    margin-left: 15%;
+  }
+  .but{
+    margin-left: 25%;
+  }
+}
+
+@media (max-width: 480px) {
+  .number-sec{
+   margin-top: 20%;
+  }
+  .email-sec{
+margin-top: 20%;
+  }
+  #fName {
+    margin-left: 25%;
+  }
+  .text-ph {
+    margin-left: -25;
+  }
+  #pName {
+    margin-left: 25%;
+  }
+  .ph-num {
+    margin-left: -30%;
+  }
+  .mess-one {
+    margin-left: 27%;
+  }
+  .mess-two {
+    margin-top: 10%;
+    margin-left: 15%;
+  }
+  .but {
+    margin-top: 5%;
+    margin-left: 25%;
+    height: 50px;
+  }
+}
+
+@media (max-width: 414px) {
+ .contactInfo{
+   margin-top: 10%;
+ }
+
+ .far{
+   margin-top: 6%;
+   font-size: 2.3vmin;
+ }
+ #fName {
+  margin-left: 18%;
+}
+.text-ph {
+  font-size: 5vmin;
+  margin-left: -25;
+}
+#pName {
+  margin-left: 18%;
+}
+.ph-num {
+  font-size: 5vmin;
+  margin-left: -25%;
+}
+.mess-one{
+  font-size: 5vmin;
+}
+.but {
+  margin-top: 5%;
+  margin-left: 25%;
+  height: 50px;
+}
+}
+@media (max-width: 390px) {
+  .service-text {
+    font-size: 4.5vmin;
+    margin-left: 0%;
+    margin-right: 5%;
+  }
+  section .fas {
+    font-size: 3.4vmin;
+    margin-top: 8%;
+    margin-left: 10%;
+    text-transform: uppercase;
+  }
+
+.text-ph {
+ margin-left: -25;
+ font-size: 5vmin;
+}
+
+.ph-num {
+  font-size: 5vmin;
+ margin-left: -25%;
+}
+.mess-one{
+  font-size: 5vmin;
+}
+.but {
+ margin-top: 5%;
+ margin-left: 25%;
+ height: 50px;
+ font-size: 5vmin;
+}
+}
+
+@media (max-width: 375px) {
+  .mess-two {
+    margin-left: 10%;
+    width: 80%;
+  }
+}
+
+
+
+
 }

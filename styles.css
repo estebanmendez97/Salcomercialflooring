@@ -374,7 +374,7 @@ section .fas {
 
   .in-form {
     margin-left: 14%;
-    height: 70%;
+    height: 50%;
     width: 70%;
   }
   #fName {
@@ -397,6 +397,12 @@ section .fas {
   }
   .mess-two {
     margin-left: 27%;
+  }
+  #status{
+    width: 90%;
+    max-width: 400px;
+    margin-left: 20%;
+
   }
 }
 
@@ -497,12 +503,19 @@ section .fas {
     margin-left: 25%;
   }
   .mess-two {
+    margin-top: 10%;
     margin-left: 8%;
   }
   .but {
     margin-top: 5%;
     margin-left: 25%;
     height: 50px;
+  }
+  #status{
+    width: 90%;
+    max-width: 250px;
+    margin-left: 20%;
+
   }
 }
 @media (max-width: 390px) {
@@ -516,7 +529,7 @@ section .fas {
   }
   .in-form {
     margin-left: 10%;
-    height: 70%;
+    height: 45%;
     width: 80%;
   }
 }
@@ -712,7 +725,7 @@ nav ul li a {
     width: 80%;
   }
   .in-form {
-    height: 75%;
+    height: 55%;
     width: 70%;
   }
   .mess-one {
@@ -814,7 +827,49 @@ nav ul li a {
     height: 50px;
   }
 }
+@media (max-width: 428px) {
+  .far{
+    margin-top: 8%;
+  }
+  .email-sec{
+    left: 10%;
+    height: 15%;
+    width: 80%;
+  }
+  #fName {
+    margin-left: 20%;
+  }
+  .text-ph {
+    margin-left: -25%;
+  }
+  #pName {
+    margin-left: 20%;
+  }
+  .ph-num {
+    margin-left: -26%;
+  }
+  .in-form{
+    height: 50%;
+  }
+  .mess-one {
+    margin-left: 25%;
+  }
+  .mess-two {
+    margin-top: 10%;
+    margin-left: 15%;
+  }
+  .but {
+    margin-top: 5%;
+    margin-left: 25%;
+    height: 50px;
+  }
+  #status{
+    width: 90%;
+    max-width: 250px;
+    margin-left: 20%;
 
+  }
+}
 @media (max-width: 414px) {
  .contactInfo{
    margin-top: 10%;
@@ -889,6 +944,10 @@ nav ul li a {
   .mess-two {
     margin-left: 10%;
     width: 80%;
+  }
+  #status{
+    margin-left: 15%;
+
   }
 }
 

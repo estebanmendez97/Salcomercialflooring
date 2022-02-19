@@ -131,28 +131,55 @@ section .fas {
   text-transform: uppercase;
 }
 #flooring {
-  height: 1200px;
+  height: 1800px;
+  background-color: #f8f8ff;
 }
 #flooring h2 {
+  font-size: 30px;
   text-align: center;
   margin: 0%;
-  margin-left: 500px;
+  margin-left: 50px;
   height: 5%;
+  background-color: #f8f8ff;
 }
+
 .columns{
   float: left;
-  margin: 100px;
-  margin-top: 10px;
-  margin-left: 130px;
+  margin: 15px;
+  margin-top: -18px;
+  margin-left: 190px;
   margin-right: 50px;
+  height: 20%;
 }
 .flooring-img{
-  width: 230px;
-  height: 250px;
+  width: 330px;
+  height: 260px;
+  border-radius: 10px;
 }
+.flooring-img{
+  border: 5px solid #535353;
+}
+.flooring-img:hover{
+  border: 3px solid #0066cc;
+}
+
+.descripcion{
+  text-align: center;
+  text-transform: uppercase;
+font-family: sans-serif;
+font-size: 20px;
+}
+
+  .descripcion{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 10px;
+  }
+
 #contactUs {
   background-color: #1a6889;
-  height: 1000px;
+  height: 900px;
 }
 .in-form {
   background-color: #2286b16b;
@@ -196,7 +223,7 @@ section .fas {
 .mess-one {
   text-align: center;
   position: absolute;
-  margin-left: 20%;
+  margin-left: 22%;
   font-size: 150%;
 }
 .mess-two {
@@ -211,7 +238,7 @@ section .fas {
   width: 49%;
   margin-left: 27%;
 }
-#status{
+#status {
   width: 90%;
   max-width: 500px;
   text-align: center;
@@ -219,26 +246,46 @@ section .fas {
   margin-left: 32%;
   border-radius: 8px;
 }
-#status.success{
+#status.success {
   background-color: rgba(47, 253, 19, 0.699);
   animation: status 4s ease forwards;
 }
-#status.error{
+#status.error {
   background-color: rgba(250, 59, 59, 0.699);
   color: white;
   animation: status 4s ease forwards;
 }
-
-@keyframes status{
-  0%{
+#bttm-footer {
+  height: 120px;
+  background-color: #c7c7c7;
+}
+.lft-sec {
+  float: left;
+  position: static;
+  padding-top: 1%;
+  margin-left: 2%;
+}
+.ctr-sec {
+  margin-top: 1%;
+  margin-right: 60%;
+  margin-left: 30px;
+  border-left-width: 2px #383838;
+  position: static;
+  float:right;
+}
+h5 {
+  padding: 3px;
+}
+@keyframes status {
+  0% {
     opacity: 1;
     pointer-events: all;
   }
-  90%{
+  90% {
     opacity: 1;
     pointer-events: all;
   }
-  100%{
+  100% {
     opacity: 0;
     pointer-events: none;
   }
@@ -290,6 +337,13 @@ section .fas {
   #flooring h2 {
     text-align: center;
   }
+  .flooring-img{
+    height: 250px;
+    width: 200px;
+  }
+  .columns{
+    margin-left: 100px;
+  }
   #contactUs h2 {
     text-align: center;
   }
@@ -328,7 +382,7 @@ section .fas {
     font-family: "Playfair Display SC", serif;
     font-size: 220%;
   }
-  
+
   .email-sec {
     left: 15%;
     top: 65%;
@@ -357,9 +411,9 @@ section .fas {
 
     margin-top: 2%;
   }
-  .far{
-  margin-left: 10%;
-  margin-top: 5%; 
+  .far {
+    margin-left: 10%;
+    margin-top: 5%;
   }
   .email-sec {
     width: 65%;
@@ -388,6 +442,13 @@ section .fas {
   .img-ser-one {
     margin-top: 10%;
   }
+  .flooring-img{
+    height: 230px;
+    width: 190px;
+  }
+  .columns{
+    margin-left: 90px;
+  }
 
   .in-form {
     margin-left: 14%;
@@ -415,11 +476,28 @@ section .fas {
   .mess-two {
     margin-left: 27%;
   }
-  #status{
+  #status {
     width: 90%;
     max-width: 400px;
     margin-left: 20%;
-
+  }
+}
+@media (max-width: 700px) {
+  
+  #flooring {
+    height: 3000px;
+    background-color: #f8f8ff;
+  }
+  .columns{
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-right: 50px;
+    margin-bottom: -45%;
+  }
+  .flooring-img{
+    width: 250px;
+    height: 230px;
+    border-radius: 10px;
   }
 }
 
@@ -451,6 +529,17 @@ section .fas {
     margin-top: 6%;
     text-transform: uppercase;
   }
+  .flooring-img{
+    width: 230px;
+    height: 220px;
+    border-radius: 10px;
+  }
+  .columns{
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-right: 50px;
+    margin-bottom: -53%;
+  }
   #fName {
     margin-top: 4%;
     margin-left: 30%;
@@ -479,27 +568,47 @@ section .fas {
 }
 
 @media (max-width: 480px) {
-  .number-sec {
-    margin-top: 30%;
-    margin-left: -5%;
-    width: 40%;
-  }
-
   .email-sec {
-    margin-top: 28%;
-    left: 27%;
-    width: 55%;
+    margin-top: 20%;
+    left: 13%;
+    width: 80%;
   }
   .far {
     margin-top: 5%;
     font-size: 2.7vmin;
   }
+  section .fas {
+    font-size: 100%;
+    margin-left: 22%;
+    margin-top: 6%;
+    text-transform: uppercase;
+  }
+  #flooring h2 {
+    margin-left: 12%;
+    height: 5%;
+    background-color: #f8f8ff;
+  }
+  .flooring-img{
+    width: 230px;
+    height: 220px;
+    border-radius: 10px;
+  }
+  .columns{
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 50px;
+    margin-bottom: -62%;
+  }
+  .ctr-sec {
+    margin-right: 5%;
+  }
+  
 }
 @media (max-width: 428px) {
-  .far{
+  .far {
     margin-top: 8%;
   }
-  .email-sec{
+  .email-sec {
     left: 10%;
     height: 15%;
     width: 80%;
@@ -528,27 +637,61 @@ section .fas {
     margin-left: 25%;
     height: 50px;
   }
-  #status{
+  #status {
     width: 90%;
     max-width: 250px;
     margin-left: 20%;
-
   }
 }
-@media (max-width: 390px) {
-
+@media (max-width: 414px) {
   .far {
     margin-left: 10%;
     font-size: 2.9vmin;
   }
-  .email-sec{
+  .email-sec {
     width: 85%;
+  }
+  .columns{
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 50px;
+    margin-bottom: -75%;
+  }
+  #contactUs {
+    background-color: #1a6889;
+    height: 750px;
   }
   .in-form {
     margin-left: 10%;
-    height: 45%;
+    height: 60%;
     width: 80%;
   }
+
+}
+@media (max-width: 390px) {
+  .far {
+    margin-left: 10%;
+    font-size: 2.9vmin;
+  }
+  .email-sec {
+    width: 85%;
+  }
+  .columns{
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 50px;
+    margin-bottom: -75%;
+  }
+  #contactUs {
+    background-color: #1a6889;
+    height: 750px;
+  }
+  .in-form {
+    margin-left: 10%;
+    height: 60%;
+    width: 80%;
+  }
+
 }
 @media (max-width: 375px) {
   header h3 {
@@ -562,6 +705,25 @@ section .fas {
     left: 10%;
     width: 85%;
     height: 15;
+  }
+  .columns{
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 50px;
+    margin-bottom: -78%;
+  }
+}
+@media (max-width: 360px) {
+  .contactInfo {
+    margin-top: 30%;
+    height: 40%;
+  }
+  .columns{
+    margin-left: 20%;
+    margin-bottom: -85%;
+  }
+  .ctr-sec {
+    margin-right: 1%;
   }
 }
 * {
@@ -678,7 +840,6 @@ nav ul li a {
   display: block;
 }
 @-moz-document url-prefix() {
-
   .far {
     color: white;
     margin-top: 4%;
@@ -693,6 +854,10 @@ nav ul li a {
   }
   .mess-two {
     margin-left: 27%;
+  }
+  #flooring {
+    height: 2000px;
+    background-color: #f8f8ff;
   }
   @media (max-width: 990px) {
     header h3 {
@@ -715,260 +880,253 @@ nav ul li a {
     margin: 35px;
   }
 
-@media (max-width: 854px) {
+  @media (max-width: 854px) {
+    .email-sec {
+      width: 70%;
+    }
+    .far {
+      margin-top: 5%;
+      margin-left: 15%;
+      font-size: 2.3vmin;
+    }
+    section .fas {
+      font-size: 110%;
+      margin-top: 3%;
+      margin-left: 25%;
+    }
+  }
+  @media (max-width: 768px) {
+    .far {
+      margin-top: 5%;
+      margin-left: 11%;
+    }
+    .email-sec {
+      left: 10%;
+      margin-top: 10%;
+      width: 80%;
+    }
+    .in-form {
+      height: 55%;
+      width: 70%;
+    }
+    .mess-one {
+      margin-left: 30%;
+    }
+    .mess-two {
+      margin-left: 20%;
+    }
+  }
+  @media (max-width: 670px) {
+    header h3 {
+      font-size: 4.7vmin;
+    }
+    .far {
+      font-size: 2vmin;
+    }
+    .number-sec {
+      margin-top: 13%;
+      margin-left: -5%;
+      width: 40%;
+    }
 
-  .email-sec {
-    width: 70%;
-  }
-  .far {
-    margin-top: 5%;
-    margin-left: 15%;
-    font-size: 2.3vmin;
-  }
-  section .fas {
-    font-size: 110%;
-    margin-top: 3%;
-    margin-left: 25%;
-  }
-}
-@media (max-width: 768px) {
-  .far{
-    margin-top: 5%;
-    margin-left: 11%;
-  }
-  .email-sec {
-    left: 10%;
-    margin-top: 10%;
-    width: 80%;
-  }
-  .in-form {
-    height: 55%;
-    width: 70%;
-  }
-  .mess-one {
-    margin-left: 30%;
-  }
-  .mess-two {
-    margin-left: 20%;
-  }
-}
-@media (max-width: 670px) {
-  header h3 {
-    font-size: 4.7vmin;
-  }
-  .far{
-  font-size: 2vmin;
-  }
-  .number-sec {
-    margin-top: 13%;
-    margin-left: -5%;
-    width: 40%;
-  }
-
-  .email-sec {
-    margin-top: 15%;
-    margin-left: -4%;
-    width: 55%;
-  }
-  .in-form{
-    width: 75%;
-  }
-  .but {
-    margin-left: 30%;
-  }
-}
-
-@media (max-width: 585px) {
-  header h3 {
-    font-size: 4.7vmin;
-  }
-  .far{
-    margin-top: 4%;
-  font-size: 2vmin;
-  }
-  .number-sec {
-    margin-top: 30%;
-    margin-left: -5%;
-    width: 40%;
+    .email-sec {
+      margin-top: 15%;
+      margin-left: -4%;
+      width: 55%;
+    }
+    .in-form {
+      width: 75%;
+    }
+    .but {
+      margin-left: 30%;
+    }
   }
 
-  .email-sec {
-    margin-top: 30%;
-    margin-left: 0%;
-    width: 55%;
-  }
-  .mess-two{
-    width: 70%;
-    margin-left: 15%;
-  }
-  .but{
-    margin-left: 25%;
-  }
-}
+  @media (max-width: 585px) {
+    header h3 {
+      font-size: 4.7vmin;
+    }
+    .far {
+      margin-top: 4%;
+      font-size: 2vmin;
+    }
+    .number-sec {
+      margin-top: 30%;
+      margin-left: -5%;
+      width: 40%;
+    }
 
-@media (max-width: 480px) {
-  .contactInfo{
-    height: 30%;
-  }
-  .email-sec{
-  margin-top: 10%;
-  height: 18%;
-  width: 80%;
-  }
-  .far{
-    margin-top: 7%;
-    margin-left: 15%;
-  }
-  #fName {
-    margin-left: 25%;
-  }
-  .text-ph {
-    margin-left: -25;
-  }
-  #pName {
-    margin-left: 25%;
-  }
-  .ph-num {
-    margin-left: -30%;
-  }
-  .mess-one {
-    margin-left: 27%;
-  }
-  .mess-two {
-    margin-top: 10%;
-    margin-left: 15%;
-  }
-  .but {
-    margin-top: 5%;
-    margin-left: 25%;
-    height: 50px;
-  }
-}
-@media (max-width: 428px) {
-  .far{
-    margin-top: 8%;
-  }
-  .email-sec{
-    left: 10%;
-    height: 15%;
-    width: 80%;
-  }
-  #fName {
-    margin-left: 20%;
-  }
-  .text-ph {
-    margin-left: -25%;
-  }
-  #pName {
-    margin-left: 20%;
-  }
-  .ph-num {
-    margin-left: -26%;
-  }
-  .in-form{
-    height: 50%;
-  }
-  .mess-one {
-    margin-left: 25%;
-  }
-  .mess-two {
-    margin-top: 10%;
-    margin-left: 15%;
-  }
-  .but {
-    margin-top: 5%;
-    margin-left: 25%;
-    height: 50px;
-  }
-  #status{
-    width: 90%;
-    max-width: 250px;
-    margin-left: 20%;
-
-  }
-}
-@media (max-width: 414px) {
- .contactInfo{
-   margin-top: 10%;
- }
-
- .far{
-   margin-top: 6%;
-   margin-left: 7%;
-   font-size: 2.3vmin;
-   height: 10%;
- }
- #fName {
-  margin-left: 18%;
-}
-.text-ph {
-  font-size: 5vmin;
-  margin-left: -25;
-}
-#pName {
-  margin-left: 18%;
-}
-.ph-num {
-  font-size: 5vmin;
-  margin-left: -25%;
-}
-.mess-one{
-  font-size: 5vmin;
-}
-.but {
-  margin-top: 5%;
-  margin-left: 25%;
-  height: 50px;
-}
-}
-@media (max-width: 390px) {
-  .service-text {
-    font-size: 4.5vmin;
-    margin-left: 0%;
-    margin-right: 5%;
-  }
-  section .fas {
-    font-size: 3.4vmin;
-    margin-top: 8%;
-    margin-left: 10%;
-    text-transform: uppercase;
+    .email-sec {
+      margin-top: 30%;
+      margin-left: 0%;
+      width: 55%;
+    }
+    .mess-two {
+      width: 70%;
+      margin-left: 15%;
+    }
+    .but {
+      margin-left: 25%;
+    }
   }
 
-.text-ph {
- margin-left: -25;
- font-size: 5vmin;
-}
-
-.ph-num {
-  font-size: 5vmin;
- margin-left: -25%;
-}
-.mess-one{
-  font-size: 5vmin;
-}
-.but {
- margin-top: 5%;
- margin-left: 25%;
- height: 50px;
- font-size: 5vmin;
-}
-}
-
-@media (max-width: 375px) {
-  .contactInfo{
-    margin-top: 20%;
+  @media (max-width: 480px) {
+    .contactInfo {
+      height: 30%;
+    }
+    .email-sec {
+      margin-top: 10%;
+      height: 18%;
+      width: 80%;
+    }
+    .far {
+      margin-top: 7%;
+      margin-left: 15%;
+    }
+    #fName {
+      margin-left: 25%;
+    }
+    .text-ph {
+      margin-left: -25;
+    }
+    #pName {
+      margin-left: 25%;
+    }
+    .ph-num {
+      margin-left: -30%;
+    }
+    .mess-one {
+      margin-left: 27%;
+    }
+    .mess-two {
+      margin-top: 10%;
+      margin-left: 15%;
+    }
+    .but {
+      margin-top: 5%;
+      margin-left: 25%;
+      height: 50px;
+    }
   }
-  .mess-two {
-    margin-left: 10%;
-    width: 80%;
+  @media (max-width: 428px) {
+    .far {
+      margin-top: 8%;
+    }
+    .email-sec {
+      left: 10%;
+      height: 15%;
+      width: 80%;
+    }
+    #fName {
+      margin-left: 20%;
+    }
+    .text-ph {
+      margin-left: -25%;
+    }
+    #pName {
+      margin-left: 20%;
+    }
+    .ph-num {
+      margin-left: -26%;
+    }
+    .in-form {
+      height: 50%;
+    }
+    .mess-one {
+      margin-left: 25%;
+    }
+    .mess-two {
+      margin-top: 10%;
+      margin-left: 15%;
+    }
+    .but {
+      margin-top: 5%;
+      margin-left: 25%;
+      height: 50px;
+    }
+    #status {
+      width: 90%;
+      max-width: 250px;
+      margin-left: 20%;
+    }
   }
-  #status{
-    margin-left: 15%;
+  @media (max-width: 414px) {
+    .contactInfo {
+      margin-top: 10%;
+    }
 
+    .far {
+      margin-top: 6%;
+      margin-left: 7%;
+      font-size: 2.3vmin;
+      height: 10%;
+    }
+    #fName {
+      margin-left: 18%;
+    }
+    .text-ph {
+      font-size: 5vmin;
+      margin-left: -25;
+    }
+    #pName {
+      margin-left: 18%;
+    }
+    .ph-num {
+      font-size: 5vmin;
+      margin-left: -25%;
+    }
+    .mess-one {
+      font-size: 5vmin;
+    }
+    .but {
+      margin-top: 5%;
+      margin-left: 25%;
+      height: 50px;
+    }
   }
-}
+  @media (max-width: 390px) {
+    .service-text {
+      font-size: 4.5vmin;
+      margin-left: 0%;
+      margin-right: 5%;
+    }
+    section .fas {
+      font-size: 3.4vmin;
+      margin-top: 8%;
+      margin-left: 10%;
+      text-transform: uppercase;
+    }
 
+    .text-ph {
+      margin-left: -25;
+      font-size: 5vmin;
+    }
 
+    .ph-num {
+      font-size: 5vmin;
+      margin-left: -25%;
+    }
+    .mess-one {
+      font-size: 5vmin;
+    }
+    .but {
+      margin-top: 5%;
+      margin-left: 25%;
+      height: 50px;
+      font-size: 5vmin;
+    }
+  }
 
-
+  @media (max-width: 375px) {
+    .contactInfo {
+      margin-top: 20%;
+    }
+    .mess-two {
+      margin-left: 10%;
+      width: 80%;
+    }
+    #status {
+      margin-left: 15%;
+    }
+  }
 }

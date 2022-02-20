@@ -20,6 +20,17 @@ h2 {
   font-size: 290%;
   font-family: "Lato", sans-serif;
 }
+#services h2 {
+  color: white;
+}
+#flooring h2 {
+  padding-bottom: 10%;
+}
+#contactUs h2 {
+  margin-left: 0%;
+  margin-right: 40%;
+  padding-bottom: 5%;
+}
 header h3 {
   font-weight: normal;
   font-family: "Playfair Display SC", serif;
@@ -92,9 +103,6 @@ h4 {
 }
 #services h2 {
   background-color: #1a6889;
-  height: 75px;
-  color: white;
-  text-align: center;
 }
 .service-img {
   width: 50%;
@@ -131,51 +139,42 @@ section .fas {
   text-transform: uppercase;
 }
 #flooring {
-  height: 1800px;
+  height: 2300px;
   background-color: #f8f8ff;
 }
-#flooring h2 {
-  font-size: 30px;
-  text-align: center;
-  margin: 0%;
-  margin-left: 50px;
-  height: 5%;
-  background-color: #f8f8ff;
-}
-
-.columns{
+.columns {
   float: left;
   margin: 15px;
-  margin-top: -18px;
+  margin-top: -30px;
   margin-left: 190px;
   margin-right: 50px;
   height: 20%;
 }
-.flooring-img{
+.flooring-img {
   width: 330px;
   height: 260px;
   border-radius: 10px;
 }
-.flooring-img{
+.flooring-img {
   border: 5px solid #535353;
 }
-.flooring-img:hover{
+.flooring-img:hover {
   border: 3px solid #0066cc;
 }
 
-.descripcion{
+.descripcion {
   text-align: center;
   text-transform: uppercase;
-font-family: sans-serif;
-font-size: 20px;
+  font-family: sans-serif;
+  font-size: 20px;
 }
 
-  .descripcion{
-    text-align: center;
-    text-transform: uppercase;
-    font-family: sans-serif;
-    font-size: 10px;
-  }
+.descripcion {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 10px;
+}
 
 #contactUs {
   background-color: #1a6889;
@@ -191,7 +190,6 @@ font-size: 20px;
 
 #contactUs h2 {
   color: #ffffff;
-  margin-bottom: 5%;
 }
 .form-group input {
   display: block;
@@ -267,11 +265,11 @@ font-size: 20px;
 }
 .ctr-sec {
   margin-top: 1%;
-  margin-right: 60%;
+  margin-right: 40%;
   margin-left: 30px;
   border-left-width: 2px #383838;
   position: static;
-  float:right;
+  float: right;
 }
 h5 {
   padding: 3px;
@@ -333,19 +331,15 @@ h5 {
     margin-left: 0%;
     margin-right: 5%;
   }
-
-  #flooring h2 {
-    text-align: center;
+  #flooring {
+    height: 1800px;
   }
-  .flooring-img{
+  .flooring-img {
     height: 250px;
     width: 200px;
   }
-  .columns{
-    margin-left: 100px;
-  }
-  #contactUs h2 {
-    text-align: center;
+  .columns {
+    margin-left: 20%;
   }
   .mess-one {
     margin-left: 27%;
@@ -365,6 +359,7 @@ h5 {
     margin-left: 10%;
     font-size: 3vmin;
   }
+
   .in-form {
     margin-left: 13%;
   }
@@ -395,11 +390,15 @@ h5 {
     margin-left: 17%;
   }
 
+  .columns {
+    margin-left: 12%;
+  }
   section .fas {
     font-size: 110%;
     margin: 30px;
     text-transform: uppercase;
   }
+
   .in-form {
     margin-left: 8%;
   }
@@ -408,7 +407,6 @@ h5 {
 @media (max-width: 768px) {
   h1 {
     font-size: 250%;
-
     margin-top: 2%;
   }
   .far {
@@ -442,11 +440,11 @@ h5 {
   .img-ser-one {
     margin-top: 10%;
   }
-  .flooring-img{
+  .flooring-img {
     height: 230px;
     width: 190px;
   }
-  .columns{
+  .columns {
     margin-left: 90px;
   }
 
@@ -483,21 +481,18 @@ h5 {
   }
 }
 @media (max-width: 700px) {
-  
   #flooring {
     height: 3000px;
-    background-color: #f8f8ff;
   }
-  .columns{
-    margin-top: 2%;
-    margin-left: 30%;
+
+  .columns {
+    margin-top: -2%;
+    margin-left: 35%;
     margin-right: 50px;
     margin-bottom: -45%;
   }
-  .flooring-img{
-    width: 250px;
-    height: 230px;
-    border-radius: 10px;
+  .ctr-sec {
+    margin-right: 0%;
   }
 }
 
@@ -529,12 +524,13 @@ h5 {
     margin-top: 6%;
     text-transform: uppercase;
   }
-  .flooring-img{
+ 
+  .flooring-img {
     width: 230px;
     height: 220px;
     border-radius: 10px;
   }
-  .columns{
+  .columns {
     margin-top: 2%;
     margin-left: 30%;
     margin-right: 50px;
@@ -583,17 +579,12 @@ h5 {
     margin-top: 6%;
     text-transform: uppercase;
   }
-  #flooring h2 {
-    margin-left: 12%;
-    height: 5%;
-    background-color: #f8f8ff;
-  }
-  .flooring-img{
+  .flooring-img {
     width: 230px;
     height: 220px;
     border-radius: 10px;
   }
-  .columns{
+  .columns {
     margin-top: 2%;
     margin-left: 25%;
     margin-right: 50px;
@@ -602,7 +593,6 @@ h5 {
   .ctr-sec {
     margin-right: 5%;
   }
-  
 }
 @media (max-width: 428px) {
   .far {
@@ -651,7 +641,14 @@ h5 {
   .email-sec {
     width: 85%;
   }
-  .columns{
+  #flooring h2{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+   margin-left: 20px;
+   margin-right: 60px;
+  }
+  .columns {
     margin-top: 2%;
     margin-left: 25%;
     margin-right: 50px;
@@ -661,12 +658,15 @@ h5 {
     background-color: #1a6889;
     height: 750px;
   }
+  #contactUs h2{
+    margin-right: 0%;
+    margin-left: 50px;
+  }
   .in-form {
-    margin-left: 10%;
+
     height: 60%;
     width: 80%;
   }
-
 }
 @media (max-width: 390px) {
   .far {
@@ -676,7 +676,7 @@ h5 {
   .email-sec {
     width: 85%;
   }
-  .columns{
+  .columns {
     margin-top: 2%;
     margin-left: 25%;
     margin-right: 50px;
@@ -691,7 +691,6 @@ h5 {
     height: 60%;
     width: 80%;
   }
-
 }
 @media (max-width: 375px) {
   header h3 {
@@ -706,7 +705,7 @@ h5 {
     width: 85%;
     height: 15;
   }
-  .columns{
+  .columns {
     margin-top: 2%;
     margin-left: 25%;
     margin-right: 50px;
@@ -718,7 +717,7 @@ h5 {
     margin-top: 30%;
     height: 40%;
   }
-  .columns{
+  .columns {
     margin-left: 20%;
     margin-bottom: -85%;
   }
@@ -855,10 +854,51 @@ nav ul li a {
   .mess-two {
     margin-left: 27%;
   }
-  #flooring {
-    height: 2000px;
-    background-color: #f8f8ff;
+  #flooring h2{
+    margin-left: 35%;
   }
+
+  .columns {
+    height: auto;
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  @media (max-width: 1300px) {
+    #flooring h2{
+      margin-left: 30%;
+    }
+    .columns {
+      margin-left: 3%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+
+    }
+  .flooring-img {
+    width: 300px;
+    height: 260px;
+    border-radius: 10px;
+  }
+ 
+  }
+  @media (max-width: 1160px) {
+
+    .columns {
+      margin-left: 3%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+
+    }
+  .flooring-img {
+    width: 250px;
+    height: 260px;
+    border-radius: 10px;
+  }
+ 
+  }
+
+
+  
   @media (max-width: 990px) {
     header h3 {
       font-size: 5vmin;
@@ -868,16 +908,31 @@ nav ul li a {
       margin-left: 15%;
       font-size: 2.3vmin;
     }
+    #flooring { 
+      height: 2400px;
+    }
+    .columns {
+      margin-left: 9%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+
+    }
+  .flooring-img {
+    width: 240px;
+    height: 230px;
+    border-radius: 10px;
+  }
     .in-form {
       margin-left: 13%;
     }
     .mess-one {
       margin-left: 300px;
     }
-  }
-  section .fas {
-    font-size: 120%;
-    margin: 35px;
+
+    section .fas {
+      font-size: 120%;
+      margin: 35px;
+    }
   }
 
   @media (max-width: 854px) {
@@ -894,6 +949,16 @@ nav ul li a {
       margin-top: 3%;
       margin-left: 25%;
     }
+   
+    #flooring h2{
+      margin-left: 20%;
+    }
+    .columns {
+      margin-left: 10%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+
+    }
   }
   @media (max-width: 768px) {
     .far {
@@ -905,6 +970,19 @@ nav ul li a {
       margin-top: 10%;
       width: 80%;
     }
+    #flooring{
+      height: 3900px;
+      }
+      .flooring-img {
+        width: 370px;
+        height: 260px;
+        border-radius: 10px;
+      }
+      .columns {
+        margin-left: 20%;
+        margin-bottom: 5%;
+  
+      }
     .in-form {
       height: 55%;
       width: 70%;
@@ -916,6 +994,8 @@ nav ul li a {
       margin-left: 20%;
     }
   }
+
+ 
   @media (max-width: 670px) {
     header h3 {
       font-size: 4.7vmin;
@@ -923,17 +1003,18 @@ nav ul li a {
     .far {
       font-size: 2vmin;
     }
-    .number-sec {
-      margin-top: 13%;
-      margin-left: -5%;
-      width: 40%;
-    }
-
     .email-sec {
       margin-top: 15%;
       margin-left: -4%;
       width: 55%;
     }
+    #flooring{
+      height: 3700px;
+      }
+      .columns {
+        margin-left: 20%;
+        margin-bottom: 5%;
+      }
     .in-form {
       width: 75%;
     }
@@ -950,16 +1031,17 @@ nav ul li a {
       margin-top: 4%;
       font-size: 2vmin;
     }
-    .number-sec {
-      margin-top: 30%;
-      margin-left: -5%;
-      width: 40%;
-    }
 
     .email-sec {
       margin-top: 30%;
       margin-left: 0%;
       width: 55%;
+    }
+    
+    .columns {
+      margin-left: 20%;
+      margin-bottom: 5%;
+
     }
     .mess-two {
       width: 70%;
@@ -1017,6 +1099,24 @@ nav ul li a {
       height: 15%;
       width: 80%;
     }
+    section .fas {
+      font-size: 80%;
+      margin-top: 3%;
+      margin-left: 25%;
+    }
+    #flooring h2 {
+      position: absolute;
+    }
+    #flooring {
+      height: 3200px;
+    }
+    .columns {
+      margin-left: 5%;
+    }
+    #contactUs h2 {
+      margin-left: 50px;
+      margin-right: 20px;
+    }
     #fName {
       margin-left: 20%;
     }
@@ -1051,15 +1151,37 @@ nav ul li a {
     }
   }
   @media (max-width: 414px) {
+  
     .contactInfo {
       margin-top: 10%;
     }
-
+    
     .far {
       margin-top: 6%;
       margin-left: 7%;
       font-size: 2.3vmin;
       height: 10%;
+    }
+    #services{
+      height: 1100px;
+    }
+    section .fas {
+      font-size: 3vmin;
+      margin-top: 7%;
+      margin-left: 15%;
+      text-transform: uppercase;
+    }
+    #flooring h2{
+     margin-right: 60px;
+     text-align: center;
+     padding-bottom: 0%;
+     position: absolute;
+     }
+    #flooring{
+      height: 3300px;
+    }
+    .in-form{
+      height: 64%;
     }
     #fName {
       margin-left: 18%;
@@ -1083,8 +1205,15 @@ nav ul li a {
       margin-left: 25%;
       height: 50px;
     }
+    h5{
+     font-size: 70%;
+    }
   }
   @media (max-width: 390px) {
+    .columns {
+      margin-top: 17%;
+      margin-left: 2%;
+      }
     .service-text {
       font-size: 4.5vmin;
       margin-left: 0%;
@@ -1118,6 +1247,10 @@ nav ul li a {
   }
 
   @media (max-width: 375px) {
+
+    .flooring-img{
+      width: 350px;
+    }
     .contactInfo {
       margin-top: 20%;
     }
@@ -1127,6 +1260,15 @@ nav ul li a {
     }
     #status {
       margin-left: 15%;
+    }
+  }
+  @media (max-width: 360px) {
+    #flooring h2{
+      position: absolute;
+      height: 100px;
+    }
+    .flooring-img{
+      width: 335px;
     }
   }
 }

@@ -168,14 +168,6 @@ section .fas {
   font-family: sans-serif;
   font-size: 20px;
 }
-
-.descripcion {
-  text-align: center;
-  text-transform: uppercase;
-  font-family: sans-serif;
-  font-size: 10px;
-}
-
 #contactUs {
   background-color: #1a6889;
   height: 900px;
@@ -857,12 +849,18 @@ nav ul li a {
   #flooring h2{
     margin-left: 35%;
   }
+  #flooring{
+    height: 1600px;
+  }
 
   .columns {
     height: auto;
     margin-left: 3%;
     margin-top: 5%;
     margin-bottom: 5%;
+  }
+  #contactUs h2{
+    margin-right: 10px;
   }
   @media (max-width: 1300px) {
     #flooring h2{
